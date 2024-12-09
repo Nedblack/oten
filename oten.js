@@ -6,7 +6,7 @@ setInterval(() => {
   });
 }, 2000);
 const seo = [{
-  name: "RN",
+  name: "(RN)",
   icon: "https://up6.cc/2024/12/173377512606391.png"
 }];
 
