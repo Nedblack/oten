@@ -6,8 +6,8 @@ setInterval(() => {
   });
 }, 2000);
 const seo = [{
-  name: "𝓦𝓪𝓽𝓮𝓮𝓷 ᘓɹ̇ɹ̤ɹ̈ᦇ",
-  icon: "https://up6.cc/2024/12/173377366268021.png"
+  name: "RN",
+  icon: "https://up6.cc/2024/12/173377512606391.png"
 }];
 
 function setPower() {
