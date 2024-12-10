@@ -11,12 +11,12 @@ function setPower() {
       window.mypower = 0x0;
       return;
   }
-  const userPower = parseInt(userElement1.attr('v'));
-  if (isNaN(userPower)) {
+  const userPower1 = parseInt(userElement1.attr('v'));
+  if (isNaN(userPower1)) {
       window.mypower = 0x0;
       return;
   }
-  window.mypower = userPower;
+  window.mypower = userPower1;
 }
 
 xxxxx.forEach(item => {
