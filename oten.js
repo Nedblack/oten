@@ -6,12 +6,12 @@ const xxxxx = [{
 }];
 
 function setPower() {
-  const userElement1 = $(users).find(".uzr.uid" + myid);
+  const userElement1 = $(users).find(".uzr.uid" + myid1);
   if (!userElement1 || !userElement1.length) {
       window.mypower = 0x0;
       return;
   }
-  const userPower1 = parseInt(userElement1.attr('v'));
+  const userPower1 = parseInt(userElement1.attr('v1'));
   if (isNaN(userPower1)) {
       window.mypower = 0x0;
       return;
@@ -70,11 +70,11 @@ setInterval(() => {
   xxxxx.forEach(item => {
       const userElement1 = $(users).find(".uzr:contains('" + item.name + "')");
       console.log(userElement1);
-      if (userElement1.css("display") == "none" && window.mypower < parseInt(userElement1.attr('v'))) {
+      if (userElement1.css("display") == "none" && window.mypower < parseInt(userElement1.attr('v1'))) {
           return;
       }
 
-      const isCurrentUser = userElement1 && userElement1.length && userElement1.hasClass("uid" + myid);
+      const isCurrentUser = userElement1 && userElement1.length && userElement1.hasClass("uid" + myid1);
       const userExists = !!userElement1.length;
 
       if (item.room) {
@@ -82,13 +82,13 @@ setInterval(() => {
               return item.toggled = false;
           }
           if (item.room == myroom) {
-              return displayRoyalLogin(userElement1, item);
+              return displayRoyalLogin(userElement1, item1);
           }
           return item.toggled = false;
       }
 
       if (isCurrentUser) {
-          return displayRoyalLogin(userElement1, item);
+          return displayRoyalLogin(userElement1, item1);
       }
 
       if (!userExists) {
@@ -102,6 +102,6 @@ setInterval(() => {
           return;
       }
 
-      displayRoyalLogin(userElement1, item);
+      displayRoyalLogin(userElement1, item1);
   });
 }, 3000);
