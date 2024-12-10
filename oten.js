@@ -1,9 +1,8 @@
-}
 
 const seos = [{
-  name: 'ashq',
+  name: 'oten',
   deco: "AN",
-  cls: "ashq",
+  cls: "oten",
   icon: ""
 }];
 
