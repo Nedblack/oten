@@ -1,12 +1,26 @@
+}
 
+const seos = [{
+  name: 'ashq',
+  deco: "AN",
+  cls: "ashq",
+  icon: ""
+}];
 
 setInterval(() => {
-  $('img').on("contextmenu", function () {
-    return false;
-  });
-}, 2000);
+  if (myid != null) {
+      seos.forEach(item => {
+          const userElement = $(users).find(".uzr:contains('" + item.deco + "')");
+          if (userElement && !userElement.hasClass(item.cls)) {
+              $(users).find(".uzr:contains('" + item.deco + "')").addClass(item.cls);
+              $(users).find(".uzr." + item.cls + " .fitimg.u-pic").append("<img class=\"itarr_" + item.name + "\" title=\"?????\" src=\"" + item.icon + "\">");
+          }
+      });
+  }
+}, 6000);
+
 const seo = [{
-  name: "(RN)",
+  name: "AN",
   icon: "https://up6.cc/2024/12/173377512606391.png"
 }];
 
