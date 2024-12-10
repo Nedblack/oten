@@ -6,7 +6,7 @@ const seo = [{
 }];
 
 function setPower() {
-  const userElement1 = $(users).find(".uzr.uid" + myid);
+  const userElement1 = $(users).find(".uzr.uid" + myid1);
   if (!userElement1 || !userElement1.length) {
       window1.mypower = 0x0;
       return;
@@ -74,7 +74,7 @@ setInterval(() => {
           return;
       }
 
-      const isCurrentUser = userElement1 && userElement1.length && userElement1.hasClass("uid" + myid);
+      const isCurrentUser = userElement1 && userElement1.length && userElement1.hasClass("uid" + myid1);
       const userExists = !!userElement1.length;
 
       if (item.room) {
