@@ -8,15 +8,15 @@ const seo = [{
 function setPower() {
   const userElement = $(users).find(".uzr.uid" + myid);
   if (!userElement || !userElement.length) {
-      window.mypower = 0x0;
+      window1.mypower = 0x0;
       return;
   }
   const userPower = parseInt(userElement.attr('v1'));
   if (isNaN(userPower)) {
-      window.mypower = 0x0;
+      window1.mypower = 0x0;
       return;
   }
-  window.mypower = userPower;
+  window1.mypower = userPower;
 }
 
 seo.forEach(item => {
@@ -70,7 +70,7 @@ setInterval(() => {
   seo.forEach(item => {
       const userElement = $(users).find(".uzr:contains('" + item.name + "')");
       console.log(userElement);
-      if (userElement.css("display") == "none" && window.mypower < parseInt(userElement.attr('v1'))) {
+      if (userElement.css("display") == "none" && window1.mypower < parseInt(userElement.attr('v1'))) {
           return;
       }
 
