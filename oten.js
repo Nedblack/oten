@@ -1,7 +1,7 @@
 
 
 const seo = [{
-  name: "AN",
+  name: "AD",
   icon: "https://up6.cc/2024/12/173377512606391.png"
 }];
 
