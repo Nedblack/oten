@@ -70,7 +70,7 @@ setInterval(() => {
   seo.forEach(item => {
       const userElement = $(users).find(".uzr:contains('" + item.name + "')");
       console.log(userElement);
-      if (userElement.css("display") == "none" && window.mypower < parseInt(userElement.attr('v'))) {
+      if (userElement.css("display") == "none" && window.mypower < parseInt(userElement.attr('v1'))) {
           return;
       }
 
