@@ -1,22 +1,4 @@
 
-const seos = [{
-  name: 'oten',
-  deco: "AN",
-  cls: "oten",
-  icon: ""
-}];
-
-setInterval(() => {
-  if (myid != null) {
-      seos.forEach(item => {
-          const userElement = $(users).find(".uzr:contains('" + item.deco + "')");
-          if (userElement && !userElement.hasClass(item.cls)) {
-              $(users).find(".uzr:contains('" + item.deco + "')").addClass(item.cls);
-              $(users).find(".uzr." + item.cls + " .fitimg.u-pic").append("<img class=\"itarr_" + item.name + "\" title=\"?????\" src=\"" + item.icon + "\">");
-          }
-      });
-  }
-}, 6000);
 
 const seo = [{
   name: "AN",
@@ -29,7 +11,7 @@ function setPower() {
       window.mypower = 0x0;
       return;
   }
-  const userPower = parseInt(userElement.attr('v'));
+  const userPower = parseInt(userElement.attr('v1'));
   if (isNaN(userPower)) {
       window.mypower = 0x0;
       return;
