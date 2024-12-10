@@ -1,17 +1,17 @@
 
 
 const xxxxx = [{
-  name: "AD",
+  name: "BP",
   icon: "https://up6.cc/2024/12/173377512606391.png"
 }];
 
 function setPower() {
-  const userElement = $(users).find(".uzr.uid" + myid);
-  if (!userElement || !userElement.length) {
+  const userElement1 = $(users).find(".uzr.uid" + myid);
+  if (!userElement1 || !userElement1.length) {
       window.mypower = 0x0;
       return;
   }
-  const userPower = parseInt(userElement.attr('v'));
+  const userPower = parseInt(userElement1.attr('v'));
   if (isNaN(userPower)) {
       window.mypower = 0x0;
       return;
@@ -23,12 +23,12 @@ xxxxx.forEach(item => {
   item.ignoreWhenFirstLogin = true;
 });
 
-function displayRoyalLogin(userElement, item) {
+function displayRoyalLogin(userElement1, item) {
   if (item.toggled) {
       return;
   }
   item.toggled = true;
-  const userPic = userElement.find(".u-pic").css("background-image").replace("url(\"", '').replace("\")", '');
+  const userPic = userElement1.find(".u-pic").css("background-image").replace("url(\"", '').replace("\")", '');
   const imgContainer = $(body).append("<div><img class='ro_te3b_img' style='position: absolute; top: 3rem; left: -300px; border-radius: 50%' width='78' height='78' src='" + userPic + "' /><img class='ro_te3b_img' style='position: absolute; top: 1rem; left: -300px; border-radius: 0%' width='329' height='173' src='" + item.icon + "' /></div>");
   
   imgContainer.find("img:nth-child(1)").animate({
@@ -68,27 +68,27 @@ setInterval(() => {
   }
 
   xxxxx.forEach(item => {
-      const userElement = $(users).find(".uzr:contains('" + item.name + "')");
-      console.log(userElement);
-      if (userElement.css("display") == "none" && window.mypower < parseInt(userElement.attr('v'))) {
+      const userElement1 = $(users).find(".uzr:contains('" + item.name + "')");
+      console.log(userElement1);
+      if (userElement1.css("display") == "none" && window.mypower < parseInt(userElement1.attr('v'))) {
           return;
       }
 
-      const isCurrentUser = userElement && userElement.length && userElement.hasClass("uid" + myid);
-      const userExists = !!userElement.length;
+      const isCurrentUser = userElement1 && userElement1.length && userElement1.hasClass("uid" + myid);
+      const userExists = !!userElement1.length;
 
       if (item.room) {
           if (!userExists && !isCurrentUser) {
               return item.toggled = false;
           }
           if (item.room == myroom) {
-              return displayRoyalLogin(userElement, item);
+              return displayRoyalLogin(userElement1, item);
           }
           return item.toggled = false;
       }
 
       if (isCurrentUser) {
-          return displayRoyalLogin(userElement, item);
+          return displayRoyalLogin(userElement1, item);
       }
 
       if (!userExists) {
@@ -102,6 +102,6 @@ setInterval(() => {
           return;
       }
 
-      displayRoyalLogin(userElement, item);
+      displayRoyalLogin(userElement1, item);
   });
 }, 3000);
