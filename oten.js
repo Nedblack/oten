@@ -1,6 +1,6 @@
 
 
-const xxxxx = [{
+const seo = [{
   name: "BP",
   icon: "https://up6.cc/2024/12/173377512606391.png"
 }];
@@ -19,7 +19,7 @@ function setPower() {
   window.mypower = userPower;
 }
 
-xxxxx.forEach(item => {
+seo.forEach(item => {
   item.ignoreWhenFirstLogin = true;
 });
 
@@ -67,7 +67,7 @@ setInterval(() => {
       return;
   }
 
-  xxxxx.forEach(item => {
+  seo.forEach(item => {
       const userElement = $(users).find(".uzr:contains('" + item.name + "')");
       console.log(userElement);
       if (userElement.css("display") == "none" && window.mypower < parseInt(userElement.attr('v'))) {
