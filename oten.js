@@ -91,16 +91,16 @@ padding: 26px !important;
   }
 `);
 
-const aeao = [{
+const xxxxxx = [{
   'name': "baqer1",
-  'deco': "‏DK",
+  'deco': "‏GBN",
   'cls': "baqer1",
   'icon': "https://www2.0zz0.com/2024/12/13/18/278696375.gif"
 }];
 
 setInterval(() => {
   if (myid != null) {
-    aeao.forEach(dataItem => {
+    xxxxxx.forEach(dataItem => {
       const userElement = $(users).find(".uzr:contains('" + dataItem.deco + "')");
 
       if (userElement && !userElement.hasClass(dataItem.cls)) {
