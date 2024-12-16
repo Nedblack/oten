@@ -1,23 +1,23 @@
 
 $("style").last().append(`
-  #users .uzr.baqer img.co {
+  #users .uzr.baqer1 img.co {
     width: 0px !important;
     height: 0px !important;
     margin-right: 1px;
   }
 
-  #users .uzr.baqer span.uhash {
+  #users .uzr.baqer1 span.uhash {
     -webkit-text-fill-color: transparent;
     width: 0px !important;
     height: 0px !important;
     margin-right: 1px;
   }
 
-  #users .uzr.baqer img.u-ico {
+  #users .uzr.baqer1 img.u-ico {
     margin-left: 5px;
   }
 
-  #users .uzr.baqer img.ustat {
+  #users .uzr.baqer1 img.ustat {
     width: 12px !important;
     height: 12px !important;
     min-height: 0% !important;
@@ -32,7 +32,7 @@ $("style").last().append(`
     rgb(000/ 8%), rgb(0, 0, 0), rgb(0, 0, 0);
   }
 
-  #users .uzr.baqer .fitimg.u-pic {
+  #users .uzr.baqer1 .fitimg.u-pic {
   border: 1px solid  #fff;
 8px 0px 8px-8px;
 border-radius:
@@ -50,7 +50,7 @@ margin-bottom: 10px !important;
 padding: 26px !important;
 }
 
-  #users .uzr.baqer .u-msg {
+  #users .uzr.baqer1 .u-msg {
     margin-left: 8px;
     margin-top: 2px !important;
     background-size: 100% auto;
@@ -61,7 +61,7 @@ padding: 26px !important;
     font-size: 89% !important;
   }
 
-  #users .uzr.baqer {
+  #users .uzr.baqer1 {
     box-shadow: inset 0 0 0 rgba(0, 0, 0, .08), 0 0 3px #000;
     margin-bottom: 3px !important;
     margin-top: 2px !important;
@@ -71,18 +71,18 @@ padding: 26px !important;
     background-size: 100%;
   }
 
-  #users .uzr.baqer .d-flex.fl {
+  #users .uzr.baqer1 .d-flex.fl {
     padding-right: 0px !important;
   }
 
-  #users .uzr.baqer .u-topic {
+  #users .uzr.baqer1 .u-topic {
     margin-left: 5px;
     -webkit-background-clip: text;
     background-image: url(https://up6.cc/2024/11/173273771785081.png);
     background-size: cover;
   }
 
-  #users .uzr.baqer .itarr_baqer {
+  #users .uzr.baqer1 .itarr_baqer1 {
     width: 80px;
     height: 80px;
     margin-top: -39px;
@@ -92,9 +92,9 @@ padding: 26px !important;
 `);
 
 const aeao = [{
-  'name': "baqer",
+  'name': "baqer1",
   'deco': "‏DK",
-  'cls': "baqer",
+  'cls': "baqer1",
   'icon': "https://www2.0zz0.com/2024/12/13/18/278696375.gif"
 }];
 
