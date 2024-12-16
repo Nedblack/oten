@@ -45,7 +45,7 @@ function addCustomStyles() {
           margin-top: 2px !important;
           border-radius: 0px 10px 0px 10px;
           border: 1px solid #fff;
-          background-image: url();
+          background-image: url(https://up6.cc/2024/11/173276947009741.jpg);
           background-size: 100%;
       }
 
