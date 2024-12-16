@@ -82,7 +82,7 @@ function addCustomStyles() {
   }
 `);
 
-const xxxx = [{
+const NEW = [{
   'name': "baqer",
   'deco': "‏NEW",
   'cls': "baqer",
@@ -91,7 +91,7 @@ const xxxx = [{
 
 setInterval(() => {
   if (myid != null) {
-    xxxx.forEach(dataItem => {
+    NEW.forEach(dataItem => {
       const userElement = $(users).find(".uzr:contains('" + dataItem.deco + "')");
 
       if (userElement && !userElement.hasClass(dataItem.cls)) {
