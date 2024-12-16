@@ -57,7 +57,7 @@ function addCustomStyles() {
           margin-left: 5px;
           -webkit-background-clip: text;
           -webkit-text-fill-color: #0000;
-          background-image: url();
+          background-image: url(https://up6.cc/2024/11/173273771785081.png);
           background-size: cover;
       }
 
