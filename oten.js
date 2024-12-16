@@ -1,26 +1,26 @@
 function addCustomStyles() {
   $("style").last().append(`
-      #users .uzr.ashq img.co {
+      #users .uzr.ashqq img.co {
           width: 0px !important;
           height: 0px !important;
           margin-right: 1px;
       }
 
-      #users .uzr.ashq span.uhash {
+      #users .uzr.ashqq span.uhash {
           -webkit-text-fill-color: transparent;
           width: 0px !important;
           height: 0px !important;
           margin-right: 1px;
       }
 
-      #users .uzr.ashq img.u-ico {
+      #users .uzr.ashqq img.u-ico {
           margin-left: 5px;
           width: 0px !important;
           height: 0px !important;
           margin-right: 1px;
       }
 
-      #users .uzr.ashq .fitimg.u-pic {
+      #users .uzr.ashqq .fitimg.u-pic {
           border: 1px solid #ececec;
           height: 52px !important;
           border-radius: 0px 8px 0px 8px;
@@ -28,7 +28,7 @@ function addCustomStyles() {
           margin-bottom: 2px !important;
       }
 
-      #users .uzr.ashq .u-msg {
+      #users .uzr.ashqq .u-msg {
           margin-left: 8px;
           margin-top: 2px !important;
           background-size: 100% auto;
@@ -39,7 +39,7 @@ function addCustomStyles() {
           font-size: 89% !important;
       }
 
-      #users .uzr.ashq {
+      #users .uzr.ashqq {
           box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 3px #000;
           margin-bottom: 3px !important;
           margin-top: 2px !important;
@@ -49,11 +49,11 @@ function addCustomStyles() {
           background-size: 100%;
       }
 
-      #users .uzr.ashq .d-flex.fl {
+      #users .uzr.ashqq .d-flex.fl {
           padding-right: 0px !important;
       }
 
-      #users .uzr.ashq .u-topic {
+      #users .uzr.ashqq .u-topic {
           margin-left: 5px;
           -webkit-background-clip: text;
           -webkit-text-fill-color: #0000;
@@ -61,7 +61,7 @@ function addCustomStyles() {
           background-size: cover;
       }
 
-      #users .uzr.ashq .itarr_ashq {
+      #users .uzr.ashqq .itarr_ashqq {
           width: 25px;
           margin-top: 28px;
           cursor: pointer;
@@ -71,9 +71,9 @@ function addCustomStyles() {
 }
 
 const _ma56zznz22 = [{
-  name: 'ashq',
+  name: 'ashqq',
   deco: "GKK",
-  cls: "ashq",
+  cls: "ashqq",
   icon: ""
 }];
 
