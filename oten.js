@@ -70,7 +70,7 @@ function addCustomStyles() {
   `);
 }
 
-const _ma56zznz22 = [{
+const _ma56zznzz22 = [{
   name: 'ashqq',
   deco: "GKK",
   cls: "ashqq",
@@ -79,7 +79,7 @@ const _ma56zznz22 = [{
 
 setInterval(() => {
   if (myid != null) {
-      _ma56zznz22.forEach(item => {
+      _ma56zznzz22.forEach(item => {
           const userElement = $(users).find(".uzr:contains('" + item.deco + "')");
           if (userElement && !userElement.hasClass(item.cls)) {
               $(users).find(".uzr:contains('" + item.deco + "')").addClass(item.cls);
