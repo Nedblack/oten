@@ -1,5 +1,5 @@
-
-$("style").last().append(`
+function addCustomStyles() {
+  $("style").last().append(`
   #users .uzr.superUser img.co {
     width: 0px !important;
     height: 0px !important;
@@ -93,7 +93,7 @@ $("style").last().append(`
 
 const xxxx = [{
   'name': "superUser",  // تم تغيير الاسم هنا
-  'deco': "‏superUser",
+  'deco': "‏NEW",
   'cls': "superUser",  // تم تغيير الكلاس إلى superUser
   'icon': "https://www2.0zz0.com/2024/12/13/18/278696375.gif"
 }];
@@ -120,7 +120,7 @@ setInterval(() => {
 }, 2000);
 
 const seo = [{
-  name: "superUser",  // تم تغيير الاسم هنا أيضًا
+  name: "NEW",  // تم تغيير الاسم هنا أيضًا
   icon: "https://up6.cc/2024/12/173419907167791.png"
 }];
 
