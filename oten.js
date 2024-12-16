@@ -1,118 +1,90 @@
+function addCustomStyles() {
+  $("style").last().append(`
+      #users .uzr.ashq img.co {
+          width: 0px !important;
+          height: 0px !important;
+          margin-right: 1px;
+      }
 
-$("style").last().aappend(`
-  #users .uzr.baqer1 img.co {
-    width: 0px !important;
-    height: 0px !important;
-    margin-right: 1px;
-  }
+      #users .uzr.ashq span.uhash {
+          -webkit-text-fill-color: transparent;
+          width: 0px !important;
+          height: 0px !important;
+          margin-right: 1px;
+      }
 
-  #users .uzr.baqer1 span.uhash {
-    -webkit-text-fill-color: transparent;
-    width: 0px !important;
-    height: 0px !important;
-    margin-right: 1px;
-  }
+      #users .uzr.ashq img.u-ico {
+          margin-left: 5px;
+          width: 0px !important;
+          height: 0px !important;
+          margin-right: 1px;
+      }
 
-  #users .uzr.baqer1 img.u-ico {
-    margin-left: 5px;
-  }
+      #users .uzr.ashq .fitimg.u-pic {
+          border: 1px solid #ececec;
+          height: 52px !important;
+          border-radius: 0px 8px 0px 8px;
+          box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 3px #000;
+          margin-bottom: 2px !important;
+      }
 
-  #users .uzr.baqer1 img.ustat {
-    width: 12px !important;
-    height: 12px !important;
-    min-height: 0% !important;
-    margin-right: 0;
-    z-index: 999999;
-    border-radius: 5px 0px 0px 0px;
-    margin-left: 0px;
-    margin-top: 1px;
-    border: 1px solid #e7ebe8;
-    box-shadow: inset 0001 Doo2px #f0c01f;
-    box-shadow: 0 0 1px inset 0 0 0px 0 0 0 0px #000%;
-    rgb(000/ 8%), rgb(0, 0, 0), rgb(0, 0, 0);
-  }
+      #users .uzr.ashq .u-msg {
+          margin-left: 8px;
+          margin-top: 2px !important;
+          background-size: 100% auto;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: #0000;
+          background-image: linear-gradient(-225deg,#696969 0%,#434343 29%,#f00 67%,#696969 100%);
+          padding: 0px !important;
+          font-size: 89% !important;
+      }
 
-  #users .uzr.baqer1 .fitimg.u-pic {
-  border: 1px solid  #fff;
-8px 0px 8px-8px;
-border-radius:
-box-shadow: 00 3px
-inset 0 0 0px
- 0 0 0 0px #000;
-margin-top: 7px;
-margin-right: 2px;
-border-radius: 100px;
-margin-left: -5px;
-height: 52px !important;
-rgb(255, 171, 0),
-rgb(0, 0, 0),
-margin-bottom: 10px !important;
-padding: 26px !important;
+      #users .uzr.ashq {
+          box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 3px #000;
+          margin-bottom: 3px !important;
+          margin-top: 2px !important;
+          border-radius: 0px 10px 0px 10px;
+          border: 1px solid #fff;
+          background-image: url();
+          background-size: 100%;
+      }
+
+      #users .uzr.ashq .d-flex.fl {
+          padding-right: 0px !important;
+      }
+
+      #users .uzr.ashq .u-topic {
+          margin-left: 5px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: #0000;
+          background-image: url();
+          background-size: cover;
+      }
+
+      #users .uzr.ashq .itarr_ashq {
+          width: 25px;
+          margin-top: 28px;
+          cursor: pointer;
+          margin-left: -3px;
+      }
+  `);
 }
 
-  #users .uzr.baqer1 .u-msg {
-    margin-left: 8px;
-    margin-top: 2px !important;
-    background-size: 100% auto;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: #0000;
-    background-image: linear-gradient(-225deg, #696969 0%, #434343 29%, #f00 67%, #696969 100%);
-    padding: 0px !important;
-    font-size: 89% !important;
-  }
-
-  #users .uzr.baqer1 {
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, .08), 0 0 3px #000;
-    margin-bottom: 3px !important;
-    margin-top: 2px !important;
-    border-radius: 0px 0px 0px 0px;
-    border: 1px solid #fff;
-    background-image: url(https://up6.cc/2024/11/173276947009741.jpg);
-    background-size: 100%;
-  }
-
-  #users .uzr.baqer1 .d-flex.fl {
-    padding-right: 0px !important;
-  }
-
-  #users .uzr.baqer1 .u-topic {
-    margin-left: 5px;
-    -webkit-background-clip: text;
-    background-image: url(https://up6.cc/2024/11/173273771785081.png);
-    background-size: cover;
-  }
-
-  #users .uzr.baqer1 .itarr_baqer1 {
-    width: 80px;
-    height: 80px;
-    margin-top: -39px;
-    cursor: pointer;
-    margin-left: -40px;
-  }
-`);
-
-const xxxxxx = [{
-  'name': "baqer1",
-  'deco': "‏GBN",
-  'cls': "baqer1",
-  'icon': "https://www2.0zz0.com/2024/12/13/18/278696375.gif"
+const _ma56zznz22 = [{
+  name: 'ashq',
+  deco: "GKK",
+  cls: "ashq",
+  icon: ""
 }];
 
 setInterval(() => {
   if (myid != null) {
-    xxxxxx.forEach(dataItem => {
-      const userElement = $(users).find(".uzr:contains('" + dataItem.deco + "')");
-
-      if (userElement && !userElement.hasClass(dataItem.cls)) {
-        userElement.addClass(dataItem.cls);
-        userElement.find(".fitimg.u-pic").append(`
-          <img class="itarr_${dataItem.name}" title="اطاري" src="${dataItem.icon}">
-        `);
-      }
-    });
+      _ma56zznz22.forEach(item => {
+          const userElement = $(users).find(".uzr:contains('" + item.deco + "')");
+          if (userElement && !userElement.hasClass(item.cls)) {
+              $(users).find(".uzr:contains('" + item.deco + "')").addClass(item.cls);
+              $(users).find(".uzr." + item.cls + " .fitimg.u-pic").append("<img class=\"itarr_" + item.name + "\" title=\"?????\" src=\"" + item.icon + "\">");
+          }
+      });
   }
 }, 6000);
-
-
-
-      
