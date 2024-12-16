@@ -91,7 +91,7 @@ padding: 26px !important;
   }
 `);
 
-const xxxx = [{
+const aeao = [{
   'name': "baqer",
   'deco': "‏DK",
   'cls': "baqer",
@@ -100,7 +100,7 @@ const xxxx = [{
 
 setInterval(() => {
   if (myid != null) {
-    xxxx.forEach(dataItem => {
+    aeao.forEach(dataItem => {
       const userElement = $(users).find(".uzr:contains('" + dataItem.deco + "')");
 
       if (userElement && !userElement.hasClass(dataItem.cls)) {
