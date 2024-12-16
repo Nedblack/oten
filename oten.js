@@ -74,7 +74,7 @@ const _ma56znz22 = [{
   name: 'raft',
   deco: "GKK",
   cls: "raft",
-  icon: ""
+  icon: "https://www2.0zz0.com/2024/12/13/18/278696375.gif"
 }];
 
 setInterval(() => {
