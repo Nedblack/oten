@@ -1,5 +1,5 @@
 
-$("style").last().append(`
+$("style").last().aappend(`
   #users .uzr.baqer1 img.co {
     width: 0px !important;
     height: 0px !important;
