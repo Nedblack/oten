@@ -102,7 +102,7 @@ margin-left: -40px;
 }`);
 const xxzxx = [ {
   'name': "qaqer",
-  'deco': "شہــمہـس 𝒮𝒽𝒶𝓂𝓈",
+  'deco': "(*_*)",
   'cls': "qaqer",
   'icon': "https://up6.cc/2024/02/170915036461011.png"
 }];
